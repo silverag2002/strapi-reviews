@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tests",
+  "info": {
+    "singularName": "test",
+    "pluralName": "tests",
+    "displayName": "State",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "state_name": {
+      "type": "string"
+    },
+    "cities": {
+      "type": "json"
+    },
+    "email_of_state": {
+      "type": "email"
+    }
+  }
+}
